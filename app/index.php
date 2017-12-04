@@ -54,21 +54,86 @@
 		height: 10px;
 		background: green;
 	}
+	.border{
+		border: 1px solid black;
+	}
+	.str{
+		height: 35px;
+	}
 </style>
 </head>
 <body>
   <div class="container"  style="border: 1px solid black">
-    <div class="row">
-      <div class="col col-lg-2" style="border: 1px solid black">
-		  <div class="d-flex flex1">123</div>
-    	<p>Lorem ipsum dolor sit amet.</p></div>
-      <div class="col col-lg-6 d-flex justify-content-between" style="border: 1px solid black">
-		  <div class="block d-flex justify-content-center align-items-center"><div class="block-green"></div></div>
-		  <div class="block"><p>2</p></div>
-		  <div class="block"><p>3</p></div>
-		  <div class="block"><p>4</p></div>
-	  </div>
+    <div class="row str">
+<!--      <div class="col col-lg-2" style="border: 1px solid black">-->
+<!--		  <div class="d-flex flex1">123</div>-->
+<!--    	<p>Lorem ipsum dolor sit amet.</p></div>-->
+<!--      <div class="col col-lg-6 d-flex justify-content-between" style="border: 1px solid black">-->
+<!--		  <div class="block d-flex justify-content-center align-items-center"><div class="block-green"></div></div>-->
+<!--		  <div class="block"><p>2</p></div>-->
+<!--		  <div class="block"><p>3</p></div>-->
+<!--		  <div class="block"><p>4</p></div>-->
+<!--	  </div>-->
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
+		<div class="col border">1</div>
     </div>
+	<div class="row str">
+		<div class="col-2 border">2</div>
+		<div class="col-2 border">2</div>
+		<div class="col-2 border">2</div>
+		<div class="col-2 border">2</div>
+		<div class="col-2 border">2</div>
+		<div class="col-2 border">2</div>
+	</div>
+	  <div class="row str">
+		  <div class="col-3 border">3</div>
+		  <div class="col-3 border">3</div>
+		  <div class="col-3 border">3</div>
+		  <div class="col-3 border">3</div>
+	  </div>
+	  <div class="row str">
+		  <div class="col-4 border">4</div>
+		  <div class="col-4 border">4</div>
+		  <div class="col-4 border">4</div>
+	  </div>
+	  <div class="row str justify-content-center">
+		  <div class="col-5 border">5</div>
+		  <div class="col-5 border">5</div>
+	  </div>
+	  <div class="row str justify-content-center">
+		  <div class="col-6 border">6</div>
+		  <div class="col-6 border">6</div>
+	  </div>
+	  <div class="row str">
+		  <div class="col-7 border">7</div>
+		  <div class="col-5 border">5</div>
+	  </div>
+	  <div class="row str">
+		  <div class="col-8 border">8</div>
+		  <div class="col-4 border">4</div>
+	  </div>
+	  <div class="row str">
+		  <div class="col-9 border">9</div>
+		  <div class="col-3 border">3</div>
+	  </div>
+	  <div class="row str">
+		  <div class="col-10 border">10</div>
+		  <div class="col-2 border">2</div>
+	  </div>
+	  <div class="row str">
+		  <div class="col-11 border">11</div>
+		  <div class="col-1 border">1</div>
+	  </div>
   </div>
 
 <!--<script type="text/javascript" src="script/bootstrap.min.js"></script>-->
